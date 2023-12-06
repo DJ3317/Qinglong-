@@ -8,9 +8,9 @@
                   docker-logrotate \
                   docker-engine
 ## 安装基础包
-  yum install -y yum-utils \
-  device-mapper-persistent-data \
-  lvm2
+  yum install -y yum-utils
+  yum install -y device-mapper-persistent-data
+  yum install -y lvm2
 ## 设置稳定仓库
   yum-config-manager \
     --add-repo \
